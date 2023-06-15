@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  min-width: 360px;
+}
+
+body{
+  font-family:'Roboto', sans-serif;
+  background-image: url('/BackgroungImg.jpeg');
+  background-size: cover;
+  color: white;
+}
+
+header{
+  text-align: center;
+}
+
+li:hover{
+  background-color: yellow;
+}
+
+.hide{
+  display: none;
+}
+
+ul{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+li{
+  width: 200px;
+}
+
+.details{
+  /* max-width: 500px;
+  margin: auto; */
+}
